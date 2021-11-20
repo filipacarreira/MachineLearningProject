@@ -1,0 +1,41 @@
+df - original data
+test - original test data
+X_train - original X_train
+X_val - original X_val
+y_train - original y_train
+y_val - original y_train
+
+non_num_feat=['Date', 'OS', 'Country', 'Type_of_Traffic', 'Type_of_Visitor', 'day','Browser']
+
+X_train_num - original X_train with only numeric variables
+X_val_num - original X_val with only numeric variables
+X_train_cat - original X_train with only categorical variables
+X_val_cat - original X_val with only categorical variables
+
+index_out_train - outliers train indexes
+index_out_val - outliers validation indexes 
+X_train_no_out - train indexes except outliers 
+X_val_no_out - validation indexes except outliers 
+
+y_train_df - y_train dataframe without outliers
+y_val_df - y_val dataframe without outliers
+
+X_train_no_out_num - X_train_no_out with only numeric features
+X_train_no_out_cat - X_train_no_out with only numeric categorical
+-------
+X_val_no_out_num - X_val_no_out with only numeric features
+X_val_no_out_cat - X_train_no_out with only numeric categorical
+-----
+ohc_feat - list of variables to do one hot encoding
+
+ohc_X_train - X_train dataframe with binary variables
+
+binary_list - list of binary variables
+
+non_num_feat1 - list of all non metric features: original ones and binary
+
+X_train_eng - X_train with all variables, included the created ones
+X_train_eng_num - X_train_eng with numeric features
+
+X_train_num_min - X_train scaled with min-max
+
