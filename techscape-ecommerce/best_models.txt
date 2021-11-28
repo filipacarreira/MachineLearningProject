@@ -1,0 +1,5 @@
+decision tree: 0.66
+- feat_DT=['GoogleAnalytics_PageValue','log_BounceRate','avg_duration_product','log_AccountMng_Pages']
+- gini
+- oversampling
+- non scaled test
