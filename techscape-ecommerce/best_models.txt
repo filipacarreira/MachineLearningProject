@@ -1,5 +1,15 @@
-decision tree: 0.66
-- feat_DT=['GoogleAnalytics_PageValue','log_BounceRate','avg_duration_product','log_AccountMng_Pages']
-- gini
-- oversampling
-- non scaled test
+DECISION TREE: 
+    dt = DecisionTreeClassifier(splitter = 'random', min_samples_split=450,class_weight={0:1,1:5.6}, criterion='gini',random_state=42).fit(X_train_eng[set1], y_train_df)
+    F1 Train: 0.6583097452486859
+    F1 Val: 0.6725490196078431
+    ROC: 0.8510632762089779
+    K-FOLD: F1 score: 0.643
+            ROC_AUC score: 0.841 
+    
+RANDOM FOREST kaggle=0.676
+clf=RandomForestClassifier(n_estimators=20,class_weight='balanced_subsample',criterion="gini", max_features=None, min_samples_leaf=450,random_state=42).fit(X_train_eng[sets_RF1], y_train_df)
+    F1 Train: 0.6591276252019386
+    F1 Val: 0.6718903036238981
+    ROC: 0.8508580216933787
+    K-FOLD: F1 score: 0.660
+            ROC_AUC score: 0.847
