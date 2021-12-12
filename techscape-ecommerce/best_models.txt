@@ -13,3 +13,10 @@ clf=RandomForestClassifier(n_estimators=20,class_weight='balanced_subsample',cri
     ROC: 0.8508580216933787
     K-FOLD: F1 score: 0.660
             ROC_AUC score: 0.847
+
+SVM: KAGGLE: 0.6701
+class_weight='balanced',C= 10, gamma= 0.1, kernel='rbf',random_state=42 s
+	Set1_no_bin
+	F1 Train: 0.6590257879656162
+	F1 Val: 0.6760000000000002
+	ROC: 0.8482735493420293
