@@ -20,3 +20,9 @@ class_weight='balanced',C= 10, gamma= 0.1, kernel='rbf',random_state=42 s
 	F1 Train: 0.6590257879656162
 	F1 Val: 0.6760000000000002
 	ROC: 0.8482735493420293
+
+LOGISTIC REGRESSION: Kaggle = 0.67841
+LogisticRegression(C = 0.01, penalty = 'l2', solver = 'newton-cg', class_weight='balanced').fit(X_train_out_robust[set1_no_bin], y_train_out)
+	F1 Train: 0.66721446179129
+	F1 Val: 0.6589595375722543
+	ROC: 0.830860661141736
