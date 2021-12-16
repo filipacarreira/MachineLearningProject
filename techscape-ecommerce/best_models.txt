@@ -26,3 +26,11 @@ LogisticRegression(C = 0.01, penalty = 'l2', solver = 'newton-cg', class_weight=
 	F1 Train: 0.66721446179129
 	F1 Val: 0.6589595375722543
 	ROC: 0.830860661141736
+
+ADABOOST: Kaggle = 0.66101
+AdaBoostClassifier(base_estimator = RandomForestClassifier(class_weight = 'balanced_subsample', max_features = None, min_samples_leaf = 500, n_estimators = 20), learning_rate = 0.1, n_estimators = 50).fit(X_train_out_robust[set2], y_train_out)
+	F1 Train: 0.6650850138394623
+	F1 Val: 0.6561631139944393
+	ROC: 0.8380838422344283
+	K-FOLD: F1 score: 0.664
+		ROC_AUC score: 0.845
