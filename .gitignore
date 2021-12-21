@@ -114,3 +114,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+techscape-ecommerce/variable_selection.xlsx
+techscape-ecommerce/~$variable_selection.xlsx
