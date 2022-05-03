@@ -15,3 +15,4 @@ With the intention of classifying potential purchases based on their Google Anal
 ## Introduction
 As the team of data scientists hired, we have been tasked with the creation of a predictive model capable of predicting the probability of any given prospective customer converting to a sale, through the company’s online sales channel. Our team aims to achieve this by way of applying several supervised learning techniques to a dataset comprising of an initial 9999 records, each containing standard Google Analytics metrics as features, with the target variable being whether a prospective customer converted to a sale, designated by the variable “Buy”. Our aim to achieve the highest F1-score possible, testing our results against a ground truth set of unseen records.
 
+#### Grade: 16.5/20
